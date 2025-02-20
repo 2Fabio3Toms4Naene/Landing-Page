@@ -1,0 +1,250 @@
+/*INICIO estilos globais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+    width: 100vw;
+    height: 100%;
+}
+/*FIM estilos globais*/
+
+/*INICIO estilos do header*/
+#container-header{
+    width: 100%;
+    padding: 20px 8px;
+    border-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    background-color: #1F2937;
+    justify-content: center;
+}
+#container-header,
+.container-top,
+.container-list-links{
+    display: flex;
+    align-items: center;
+}
+.container-top{
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.header-logo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-logo,
+.list-header-link{
+    color: white;
+}
+.container-list-links{
+    list-style-type: none;
+    gap: 30px;
+}
+/*.list-header-item{
+
+}*/
+.list-header-link{
+    font-size: 20px;
+}
+/*FIM estilos do header*/
+
+/*INICIO estilos do main*/
+#main{
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    gap: 60px;
+}
+#main,
+.container-introduction,
+.container-width,
+.introduction,
+.placeholder-img{
+    display: flex;
+}
+.container-introduction{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #1F2937;
+    justify-content: center;
+}
+.container-width{
+    width: 80%;;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.introduction,
+.placeholder-img{
+    margin: 0 auto;
+    flex: 1 1 auto;
+}
+
+.introduction{
+    width: 480px;
+    flex-direction: column;
+    gap: 15px;
+}
+.tile{
+    font-size: 45px;
+    color: white;
+}
+.paragrapho-introduction{
+    font-size: 24px;
+    line-height: 36px;
+    color: #eeeeee;
+}
+.button-sign-up{
+    width: 100px;
+    border-style: none;
+    padding: 10px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.placeholder-img{
+    width: 600px;
+    height: 280px;
+    font-size: 24px;
+    font-style: italic;
+    background-color: #E5E7EB;
+    color: #1F2937;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/*estilos da secao informacao*/
+#container-information{
+    width: 100%;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+#container-information,
+.information,
+.container-cards,
+.card{
+    display: flex;
+}
+.information{
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.subtitle{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+.container-cards{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    width: 250px;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 10px;
+}
+.box{
+    width: 100%;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;;
+}
+.text-under{
+    font-size: 20px;
+    font-style: italic;
+    padding: 0 20px;
+    text-align: center;
+}
+/*estilos do container quote*/
+#container-quote{
+    background-color: #E5E7EB;
+    padding: 100px 0;
+    width: 100%;
+    justify-content: center
+}
+#container-quote,
+.quote{
+    display: flex;;
+}
+.quote{
+    width: 80%;
+    flex-direction: column;
+    gap: 25px;
+}
+.paragrapho{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+.name-quoter{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+/*estilos do container call*/
+.container-call{
+    width: 100%;
+    padding: 80px 0;
+    justify-content: center;
+}
+.container-call,
+.call,
+.container-left{
+    display: flex;
+}
+.call{
+    width: 80%;
+    background-color: #3882F6;
+    padding: 50px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.container-left{
+    flex-direction: column;
+    gap: 20px;
+}
+.subtitle03{
+    
+    font-size: 28px;
+    color: #eeeeee;
+}
+.content-left{
+    font-size: 20px;
+    color: #E5E7EB;
+}
+.button-sign-up02{
+    height: 50px;
+    border: 1px solid #E5E7EB;
+} 
+/*FIM estilos do main*/
+
+/*INICIO estilos do rodape*/
+.container-footer{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #1F2937;
+    text-align: center;
+}
+.copy-right{
+    font-size: 18px;
+    color: #eeeeee;
+}
+/*FIM estilos do rodape*/
